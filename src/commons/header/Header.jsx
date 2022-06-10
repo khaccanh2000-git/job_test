@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../images/logo.png";
+import Logo from "../../images/white-logo.png";
 import Input from "../../components/input/Input";
 import { FaSearch } from "react-icons/fa";
 import "./header.scss";
@@ -16,7 +16,7 @@ function Header() {
         </ul>
         <Input placeholder="Search for motion trend......" type="search" />
         <ul className="ul_end">
-          <li>
+          <li className="icon_search">
             <FaSearch />
           </li>
           <li>Login</li>
