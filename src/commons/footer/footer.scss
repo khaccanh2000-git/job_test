@@ -1,0 +1,26 @@
+.footer {
+    background: #070707;
+    padding: 20px 29px 12px;
+    display: flex;
+    color: #fff;
+
+    .left_footer {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        ul {
+            display: flex;
+            li {
+                margin-right: 10px;
+            }
+        }
+    }
+    .right_footer {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        ul {
+            display: flex;
+        }
+    }
+}

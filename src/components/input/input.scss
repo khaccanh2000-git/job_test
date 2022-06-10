@@ -1,0 +1,12 @@
+$white: #fff;
+.input {
+    ::placeholder {
+        color: $white;
+    }
+    input {
+        background-color: #070707;
+        border-bottom: 1px solid #fff;
+        color: $white;
+        padding: 11px 26px;
+    }
+}

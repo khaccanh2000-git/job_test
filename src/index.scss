@@ -1,0 +1,13 @@
+ul {
+    li {
+        text-decoration: none;
+        list-style: none;
+        cursor: pointer;
+
+    }
+}
+input {
+    border: none;
+}
+
+@import "../src/commons/header/header.scss";

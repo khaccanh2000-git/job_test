@@ -1,0 +1,48 @@
+.header {
+    background: #070707;
+    padding: 20px 29px 12px;
+    display: flex;
+
+    .logo_header {
+        width: 10%;
+        img {
+            width: 180px;
+            height: 17px;
+            margin: 1px 40px 9px 0;
+            object-fit: contain;
+        }
+    }
+    .items_header {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        padding: 0 0 0 15px;
+        ul {
+            display: flex;
+            margin: 0;
+            width: fit-content;
+            li {
+                color: #fff;
+                opacity: 0.5;
+                svg {
+                    opacity: 1;
+                }
+            }
+            :hover {
+                opacity: 1;
+            }
+            :nth-child(3),
+            :nth-child(4) {
+                opacity: 1;
+            }
+        }
+
+        .input {
+            width: 100%;
+            margin: 0 385px 0 267px;
+            input {
+                width: 60%;
+            }
+        }
+    }
+}
